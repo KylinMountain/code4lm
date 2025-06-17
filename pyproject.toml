@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code4lm"
+version = "0.1.0"
+authors = [
+  { name="moutain", email="kose2livs@gmail.com" },
+]
+description = "A simple and efficient tool to merge all project source files into a single text file, making it easy to copy-paste into Large Language Models (LLMs) like ChatGPT, Claude and Gemini."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT License" }
+keywords = ["llm", "codegen", "prompt", "merge", "tools"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+# This section defines the command-line tool
+[project.scripts]
+code4lm = "code4lm.main:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/codelm"  # Replace with your GitHub repo URL
+"Bug Tracker" = "https://github.com/your-username/codelm/issues" # Replace with your GitHub issues URL
