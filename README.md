@@ -1,4 +1,6 @@
 # Code4LM
+[English](./README.md) | [简体中文](./README_zh.md)
+
 A simple and efficient command-line tool that merges all your project's source code into a single file, making it easy to copy and paste large codebases into Large Language Model (LLM) prompts.
 
 ## 🤔 What Problem Does It Solve?
