@@ -27,9 +27,9 @@ Code4LM 通过一个简单的命令，自动化地扫描您的项目，将所有
 pip install code4lm
 ```
 
-### 从 GitHub 安装 (未来):
+### 从 GitHub 安装:
 ```bash
-pip install git+https://github.com/your-username/code4lm.git
+pip install git+https://github.com/KylinMountain/code4lm.git
 ```
 
 ### 从本地目录安装:

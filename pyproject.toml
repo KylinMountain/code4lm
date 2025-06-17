@@ -33,5 +33,5 @@ classifiers = [
 code4lm = "code4lm.main:main"
 
 [project.urls]
-Homepage = "https://github.com/your-username/codelm"  # Replace with your GitHub repo URL
-"Bug Tracker" = "https://github.com/your-username/codelm/issues" # Replace with your GitHub issues URL
+Homepage = "https://github.com/KylinMountain/codelm"  # Replace with your GitHub repo URL
+"Bug Tracker" = "https://github.com/KylinMountain/codelm/issues" # Replace with your GitHub issues URL
