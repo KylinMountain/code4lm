@@ -22,7 +22,7 @@ Code4LM automates this process. With a single command, it scans your project and
 ## ⚙️ Installation
 Ensure you have Python 3.7+ installed. You can then install Code4LM directly from a Git repository (recommended) or from a local clone.
 
-### Install from pip:
+### Install from pip[Not Ready]:
 ```bash
 pip install code4lm
 ```
