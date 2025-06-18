@@ -1,1 +1,2 @@
-pathspec
+pathspec>=0.12.1
+fastmcp>=2.8.1

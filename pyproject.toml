@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "code4lm"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
   { name="moutain", email="kose2livs@gmail.com" },
 ]
@@ -28,11 +28,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "pathspec>=0.12.1"
+    "pathspec>=0.12.1",
+    "fastmcp>=2.8.1"
 ]
 # This section defines the command-line tool
 [project.scripts]
-code4lm = "code4lm.main:main"
+code4lm = "code4lm.main:run_entrypoint"
 
 [project.urls]
 Homepage = "https://github.com/KylinMountain/codelm"  # Replace with your GitHub repo URL
