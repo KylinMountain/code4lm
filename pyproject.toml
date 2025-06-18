@@ -27,7 +27,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Operating System :: OS Independent",
 ]
-
+dependencies = [
+    "pathspec>=0.12.1"
+]
 # This section defines the command-line tool
 [project.scripts]
 code4lm = "code4lm.main:main"
